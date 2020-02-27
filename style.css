@@ -1,0 +1,41 @@
+/* 
+theme name: wpweba
+author: him
+version: 001
+ */
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    background: linear-gradient(to right, teal, orange);
+    padding: 15px;
+    display: flex;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+li a:hover {
+    background: orange;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-body {
+    text-decoration: none;
+}
+
+.text-head {
+    margin-left: 20px;
+}
